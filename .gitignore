@@ -1,0 +1,15 @@
+*~
+
+# Executables
+*.out
+*.exe
+
+# Object files
+*.o
+
+# Libraries
+*.a
+
+# Shared objects
+*.so
+*.dll
