@@ -1,0 +1,53 @@
+commit 4e081aa8d51c9c8ca8faa7e17a34fb8bc30f32df
+Author: borisone <boris95714@gmail.com>
+Date:   Mon Oct 26 20:15:20 2020 +0000
+
+    added 06_Debugging task
+
+commit 6c0732b60cd8389d9299ac9a5fcaf5f7e6b53274
+Author: borisone <boris95714@gmail.com>
+Date:   Mon Oct 19 21:08:01 2020 +0000
+
+    05 task initial commit
+
+commit 4ab38d0b622a68b7e79ff8a2d3b7fe1db425ac26
+Author: borisone <boris95714@gmail.com>
+Date:   Mon Oct 12 20:25:28 2020 +0000
+
+    added link to course
+
+commit 392e902fdadf6d09aaa7396748c47bba61ab932f
+Author: borisone <boris95714@gmail.com>
+Date:   Mon Oct 12 20:21:01 2020 +0000
+
+    added .gitignore
+
+commit 4c984cd5706506d503b11d07a3f7a00c9b707bc3
+Author: borisone <boris95714@gmail.com>
+Date:   Mon Oct 12 20:16:08 2020 +0000
+
+    4 assignment initial commit
+
+commit dbd45c59aac8b6c14ce43e89731bf9ecb4c2b2e6
+Author: borisone <boris95714@gmail.com>
+Date:   Sun Oct 4 22:21:08 2020 +0000
+
+    added show.c and Makefile
+
+commit 2e74d7bd1fa6063dff6d68e0347968de2b6dd9a7
+Author: borisone <boris95714@gmail.com>
+Date:   Sun Oct 4 16:14:37 2020 +0000
+
+    refactoring
+
+commit 7bedbb03f2e0847cbad0d254a790f6321f7b5797
+Author: borisone <boris95714@gmail.com>
+Date:   Sun Oct 4 16:08:42 2020 +0000
+
+    initial commit of 02_BuildReq
+
+commit 89ebe12465b3e42b31fe2b12d2cbda2086ef8294
+Author: Boris Sheludko <boris95714@gmail.com>
+Date:   Mon Sep 21 10:44:30 2020 +0300
+
+    Initial commit
