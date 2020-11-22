@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-21 23:47+0000\n"
+"POT-Creation-Date: 2020-11-22 10:58+0000\n"
 "PO-Revision-Date: 2020-11-16 20:56+0000\n"
 "Last-Translator: Борис Шелудько <bs.sheludko@gmail.com>\n"
 "Language-Team: Russian <gnu@d07.ru>\n"
@@ -18,22 +18,61 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: guess.c:35
-#, c-format
-msgid "Come up with a number from %d to %d\n"
-msgstr "Загадайте число от %d до %d\n"
+#: guess.c:11
+msgid ""
+"`guess' is able guess the number you thought about.\n"
+"\n"
+"Usage: ./guess [OPTION]...\n"
+"\n"
+"Defaults for the options are specified in brackets.\n"
+"\n"
+"Configuration:\n"
+"  --help                  display this help and exit\n"
+"  --version               display version information and exit\n"
+"  -r                      enable roman mode\n"
+msgstr ""
+"`guess' может угадывать числа которые вы загадали.\n"
+"\n"
+"Использование: ./guess [КЛЮЧИ]...\n"
+"\n"
+"Ниже перечислен список доступных ключей.\n"
+"\n"
+"Configuration:\n"
+"  --help                  показать хелп и выйти\n"
+"  --version               показать версию программы и выйти\n"
+"  -r                      включить режим римских цифр\n"
 
-#: guess.c:38
+#: guess.c:34
 #, c-format
-msgid "Is this number greater than %d or not?\n"
-msgstr "Это число больше чем %d\n"
+msgid "Arabic number must be in range from 1 to 100\n"
+msgstr "Число должно быть от 1 до 100\n"
 
-#: guess.c:45
+#: guess.c:52
 #, c-format
-msgid "Incorrect value %s - type yes or no\n"
-msgstr "Неверное значение %s - введите yes или no\n"
+msgid "Roman number must be in range from 1 to 100\n"
+msgstr "Число в римской системе счисления должны быть от 1 до 100\n"
 
-#: guess.c:54
+#: guess.c:73
 #, c-format
-msgid "Your number is %d\n"
-msgstr "Загаданное число - %d\n"
+msgid "guess version: %s\n"
+msgstr "Версия guess: %s\n"
+
+#: guess.c:82
+#, c-format
+msgid "Come up with a number from %s to %s\n"
+msgstr "Загадайте число от %s до %s\n"
+
+#: guess.c:85
+#, c-format
+msgid "Is this number greater than %s or not?\n"
+msgstr "Это число больше чем %s?\n"
+
+#: guess.c:92
+#, c-format
+msgid "Incorrect value %s - type yes (y) or no (n)\n"
+msgstr "Неверное значение %s - введите yes (y) или no (n)\n"
+
+#: guess.c:96
+#, c-format
+msgid "Your number is %s\n"
+msgstr "Загаданное число - %s\n"
