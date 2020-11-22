@@ -1,9 +1,9 @@
 bin_PROGRAMS = guess
-pkgdata_DATA = ru_RU.utf8/LC_MESSAGES/guess.mo
+pkgdata_DATA = ru/LC_MESSAGES/guess.mo
 
-ru_RU.utf8/LC_MESSAGES/guess.mo: ru.po
-	mkdir ru_RU.utf8/LC_MESSAGES/ -p
-	msgfmt ru.po -o ru_RU.utf8/LC_MESSAGES/guess.mo
+ru/LC_MESSAGES/guess.mo: ru.po
+	mkdir ru/LC_MESSAGES/ -p
+	msgfmt ru.po -o ru/LC_MESSAGES/guess.mo
 
 messages.pot: guess.pot guess.c
 		xgettext -k_ -c guess.c -o messages.new.pot
@@ -17,5 +17,5 @@ gitclean:
 	git clean -fd
 
 clean:
-	rm -rf ru_RU.utf8/LC_MESSAGES/guess.mo messages.new.pot messages.pot
+	rm -rf ru/LC_MESSAGES/guess.mo messages.new.pot messages.pot
 

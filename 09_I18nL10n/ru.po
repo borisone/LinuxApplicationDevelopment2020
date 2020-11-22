@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 23:11+0000\n"
+"POT-Creation-Date: 2020-11-22 11:13+0000\n"
 "PO-Revision-Date: 2020-11-16 20:56+0000\n"
 "Last-Translator: Борис Шелудько <bs.sheludko@gmail.com>\n"
 "Language-Team: Russian <gnu@d07.ru>\n"
@@ -26,14 +26,14 @@ msgstr "Загадайте число от %d до %d\n"
 #: guess.c:19
 #, c-format
 msgid "Is this number greater than %d or not?\n"
-msgstr "Это число больше чем %d\n"
+msgstr "Это число больше чем %d?\n"
 
 #: guess.c:26
 #, c-format
 msgid "Incorrect value %s - type yes or no\n"
 msgstr "Неверное значение %s - введите yes или no\n"
 
-#: guess.c:35
+#: guess.c:30
 #, c-format
 msgid "Your number is %d\n"
 msgstr "Загаданное число - %d\n"

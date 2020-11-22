@@ -19,17 +19,12 @@ int main() {
         printf(_("Is this number greater than %d or not?\n"), m);
         scanf("%s", msg);
         if(strcmp("yes", msg) == 0) {
-            flag = 0;
+            l = m + 1;
         } else if(strcmp(msg, "no") == 0) {
-            flag = 1;
+            r = m;
         } else {
             printf(_("Incorrect value %s - type yes or no\n"), msg);
             continue;
-        }
-        if(flag) {
-            l = m + 1;
-        } else {
-            r = m;
         }
     }
     printf(_("Your number is %d\n"), l);
